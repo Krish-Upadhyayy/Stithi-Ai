@@ -1,0 +1,16 @@
+# YOLO26 Infrastructure Asset Detection Dataset Specification
+# Scope: Monitors approved sanctioned inventory at training centres.
+# Strict Constraint: Evaluates visible asset presence/count only. Zero claim of mechanical functionality.
+
+path: datasets/infrastructure
+train: train/images
+val: val/images
+test: test/images
+
+# Class mapping (Alinged with sanctioned baseline training centre equipment)
+names:
+  0: chair
+  1: computer
+  2: projector
+  3: sewing machine
+  4: workbench

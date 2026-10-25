@@ -1,0 +1,43 @@
+{
+  "train": {
+    "total_images": 0,
+    "annotated_images": 0,
+    "empty_images": 0,
+    "missing_labels": 0,
+    "corrupt_images": 0,
+    "total_objects": 0,
+    "avg_objects_per_image": 0.0,
+    "class_distribution": {},
+    "issues_count": 0,
+    "leakage_warnings": [],
+    "is_valid": true
+  },
+  "val": {
+    "total_images": 0,
+    "annotated_images": 0,
+    "empty_images": 0,
+    "missing_labels": 0,
+    "corrupt_images": 0,
+    "total_objects": 0,
+    "avg_objects_per_image": 0.0,
+    "class_distribution": {},
+    "issues_count": 0,
+    "leakage_warnings": [],
+    "is_valid": true
+  },
+  "test": {
+    "total_images": 0,
+    "annotated_images": 0,
+    "empty_images": 0,
+    "missing_labels": 0,
+    "corrupt_images": 0,
+    "total_objects": 0,
+    "avg_objects_per_image": 0.0,
+    "class_distribution": {},
+    "issues_count": 0,
+    "leakage_warnings": [],
+    "is_valid": true
+  },
+  "leakage_warnings": [],
+  "dataset_valid": true
+}

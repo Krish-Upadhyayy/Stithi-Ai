@@ -1,0 +1,99 @@
+{
+  "timestamp": "2026-10-07T21:32:02.351282Z",
+  "attendance_evaluation": {
+    "pipeline": "YOLO26-Attendance",
+    "evaluation_status": "PENDING",
+    "status_reason": "Evaluation pending because a validated labeled dataset is not currently available.",
+    "dataset_root": "datasets/attendance",
+    "evaluated_splits": {
+      "train_images": 0,
+      "val_images": 0,
+      "test_images": 0
+    },
+    "leakage_check": {
+      "dataset_root": "datasets/attendance",
+      "leakage_warnings": [],
+      "split_summary": {
+        "train": 0,
+        "val": 0,
+        "test": 0
+      },
+      "leakage_free": true
+    },
+    "metrics": null,
+    "threshold_experiments": null,
+    "notes": "Adheres to SIH strict no-fabrication policy. Accuracy and MAE require ground-truth labeled imagery."
+  },
+  "infrastructure_evaluation": {
+    "pipeline": "YOLO26-Infrastructure",
+    "evaluation_status": "PENDING",
+    "status_reason": "Evaluation pending because a validated labeled dataset is not currently available.",
+    "dataset_root": "datasets/infrastructure",
+    "classes_monitored": [
+      "computer",
+      "chair",
+      "projector",
+      "sewing machine",
+      "workbench"
+    ],
+    "dataset_validation": {
+      "train": {
+        "split": "train",
+        "total_images": 0,
+        "annotated_images": 0,
+        "empty_images": 0,
+        "missing_labels": 0,
+        "corrupt_images": 0,
+        "total_objects": 0,
+        "class_distribution": {
+          "chair": 0,
+          "computer": 0,
+          "projector": 0,
+          "sewing machine": 0,
+          "workbench": 0
+        },
+        "issues": [],
+        "is_valid": true
+      },
+      "val": {
+        "split": "val",
+        "total_images": 0,
+        "annotated_images": 0,
+        "empty_images": 0,
+        "missing_labels": 0,
+        "corrupt_images": 0,
+        "total_objects": 0,
+        "class_distribution": {
+          "chair": 0,
+          "computer": 0,
+          "projector": 0,
+          "sewing machine": 0,
+          "workbench": 0
+        },
+        "issues": [],
+        "is_valid": true
+      },
+      "test": {
+        "split": "test",
+        "total_images": 0,
+        "annotated_images": 0,
+        "empty_images": 0,
+        "missing_labels": 0,
+        "corrupt_images": 0,
+        "total_objects": 0,
+        "class_distribution": {
+          "chair": 0,
+          "computer": 0,
+          "projector": 0,
+          "sewing machine": 0,
+          "workbench": 0
+        },
+        "issues": [],
+        "is_valid": true
+      },
+      "dataset_valid": true
+    },
+    "metrics": null,
+    "notes": "Adheres to SIH strict no-fabrication policy. Equipment presence metrics require ground-truth labelled lab imagery."
+  }
+}

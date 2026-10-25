@@ -1,0 +1,57 @@
+{
+  "train": {
+    "split": "train",
+    "total_images": 0,
+    "annotated_images": 0,
+    "empty_images": 0,
+    "missing_labels": 0,
+    "corrupt_images": 0,
+    "total_objects": 0,
+    "class_distribution": {
+      "chair": 0,
+      "computer": 0,
+      "projector": 0,
+      "sewing machine": 0,
+      "workbench": 0
+    },
+    "issues": [],
+    "is_valid": true
+  },
+  "val": {
+    "split": "val",
+    "total_images": 0,
+    "annotated_images": 0,
+    "empty_images": 0,
+    "missing_labels": 0,
+    "corrupt_images": 0,
+    "total_objects": 0,
+    "class_distribution": {
+      "chair": 0,
+      "computer": 0,
+      "projector": 0,
+      "sewing machine": 0,
+      "workbench": 0
+    },
+    "issues": [],
+    "is_valid": true
+  },
+  "test": {
+    "split": "test",
+    "total_images": 0,
+    "annotated_images": 0,
+    "empty_images": 0,
+    "missing_labels": 0,
+    "corrupt_images": 0,
+    "total_objects": 0,
+    "class_distribution": {
+      "chair": 0,
+      "computer": 0,
+      "projector": 0,
+      "sewing machine": 0,
+      "workbench": 0
+    },
+    "issues": [],
+    "is_valid": true
+  },
+  "dataset_valid": true
+}

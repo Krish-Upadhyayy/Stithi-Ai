@@ -1,0 +1,13 @@
+# YOLO26 Attendance Presence Detection Dataset Specification
+# Strict Privacy Constraint (SRS §FR-03 & PRD §9):
+# Class 0 represents anonymous human presence.
+# Zero student identity vectors, facial embeddings, or biometric recognition.
+
+path: datasets/attendance
+train: train/images
+val: val/images
+test: test/images
+
+# Class mapping (Single anonymous presence class)
+names:
+  0: person
